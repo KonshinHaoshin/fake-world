@@ -60,6 +60,7 @@
 		"wechat": {
 			"index": "WeChat homepage",
 			"profileEdit": "Edit personal information",
+			"settings": "Settings",
 			"services": "Services",
 			"balance": "Wallet - Balance",
 			"moments": "Moments",
@@ -75,6 +76,7 @@
 			"cHistory": "Chat History",
 			"my": "Me",
 			"profileEdit": "Edit personal information",
+			"settings": "Settings",
 			"services": "Services",
 			"wallet": "Wallet",
 			"balance": "Balance",

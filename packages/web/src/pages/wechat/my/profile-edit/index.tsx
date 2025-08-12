@@ -4,13 +4,13 @@ import { h } from "@/components/HashAssets";
 import { canBeDetected } from "@/components/NodeDetected";
 import useModeNavigate from "@/components/useModeNavigate";
 import { EMetaDataType } from "@/stateV2/detectedNode";
-import { myProfileAtom } from "@/stateV2/profile";
+import { activeUserProfileAtom } from "@/stateV2/profile/activeUser";
 import List from "@/wechatComponents/List";
 import { useAtomValue } from "jotai";
 import { useTranslation } from "react-i18next";
 
 const ProfileEdit = () => {
-	const { avatarInfo, nickname, tickleText, wechat, coin } = useAtomValue(myProfileAtom)!;
+	const { avatarInfo, nickname, tickleText, wechat, coin } = useAtomValue(activeUserProfileAtom)!;
 	const navigate = useModeNavigate();
 	const { t } = useTranslation();
 

@@ -24,6 +24,10 @@ const QuickJumpSelect = () => {
 				value: "/wechat/my/profile-edit",
 			},
 			{
+				label: t("quickJump.wechat.settings"),
+				value: "/wechat/my/settings",
+			},
+			{
 				label: t("quickJump.wechat.services"),
 				value: "/wechat/service",
 			},

@@ -60,6 +60,7 @@
 		"wechat": {
 			"index": "微信首页",
 			"profileEdit": "个人信息编辑",
+			"settings": "设置",
 			"services": "服务",
 			"balance": "钱包 - 零钱",
 			"moments": "朋友圈",
@@ -75,6 +76,7 @@
 			"cHistory": "聊天记录",
 			"my": "我的",
 			"profileEdit": "个人信息编辑",
+			"settings": "设置",
 			"services": "服务",
 			"wallet": "钱包",
 			"balance": "零钱",

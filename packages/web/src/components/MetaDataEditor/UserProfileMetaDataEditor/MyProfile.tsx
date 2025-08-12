@@ -1,11 +1,12 @@
-import { type IStateProfile, MOMENTS_PRIVACY_TEXT_MAP, myProfileAtom } from "@/stateV2/profile";
+import { type IStateProfile, MOMENTS_PRIVACY_TEXT_MAP } from "@/stateV2/profile";
+import { editableActiveUserProfileAtom } from "@/stateV2/profile/activeUser";
 import { Form, Input, InputNumber, Radio, Select } from "antd";
 import { useSetAtom } from "jotai";
 import { keys } from "lodash-es";
 import LocalImageUploadWithPreview from "../LocalImageUpload";
 
 const MyProfileMetaDataEditor = ({ data }: EditorProps<IStateProfile>) => {
-	const setMyProfile = useSetAtom(myProfileAtom);
+	const setMyProfile = useSetAtom(editableActiveUserProfileAtom);
 
 	const [form] = Form.useForm();
 

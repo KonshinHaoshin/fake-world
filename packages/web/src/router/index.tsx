@@ -10,6 +10,7 @@ import MomentsLayout from "@/pages/wechat/moments/Layout";
 import PersonalMoments from "@/pages/wechat/moments/Personal";
 import My from "@/pages/wechat/my";
 import ProfileEdit from "@/pages/wechat/my/profile-edit";
+import Settings from "@/pages/wechat/my/settings";
 import Service from "@/pages/wechat/service";
 import DetailAdapter from "@/pages/wechat/transaction";
 import Wallet from "@/pages/wechat/wallet";
@@ -66,6 +67,13 @@ export const routes: RouteObject[] = [
 								element: <ProfileEdit />,
 								handle: {
 									label: "routerLabel.wechat.profileEdit",
+								},
+							},
+							{
+								path: "settings",
+								element: <Settings />,
+								handle: {
+									label: "routerLabel.wechat.settings",
 								},
 							},
 						],
